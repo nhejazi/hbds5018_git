@@ -1,3 +1,0 @@
-## My first repository
-
-This is just...
