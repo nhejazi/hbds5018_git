@@ -168,92 +168,6 @@ file (though it's also that).
 
 ---
 
-### Example repository
-
-.center[![An example GitHub repository](repos.png)]
-
-???
-
-This is a repository of the code that builds a piece of software
-for a recent research project (one that inspired much of the contents
-of this course!). It is a directory of files, in this case, hosted on
-GitHub. The README.md file describes the contents of the folder. 
-
----
-
-### Example commit
-
-.center[![An example GitHub commit](commit.png)]
-
-???
-
-If you view a commit on GitHub, you can easily see what lines 
-were modified -- the old version appears in red and the new version
-in green. This can be very useful for targeted debugging of software.
-
----
-
-### Example history
-
-.center[![History of commits](history.png)]
-
-???
-
-One of the beauties of git is that your entire commit history can 
-be viewed. You can see how a project evolves over time, revert to 
-any point in its history. If it is a software repository, you can 
-easily access past versions of software. Etc...
-
----
-
-### Configuring git
-
-The first time you use `git`, you will need to configure. 
-
-```{bash, git-config, eval = FALSE}
-# set user name
-git config --global user.name "Jane Doe"
-# set email
-git config --global user.email "janedoe@emory.edu"
-```
-
-* Other options to consider:
-  * [`core.editor`](https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git) controls which editor is used
-  * `core.excludesFile` controls file types that are ignored (more later) 
-  * all options [in docs](https://git-scm.com/docs/git-config)
-
----
-
-### Initialize repository
-
-```{bash rm-existing, echo = FALSE, include = FALSE, message = FALSE, warning = FALSE}
-# a piece of code to remove this directory if it exists
-if [ -d ~/tmp_gitdir ]; then rm -rf ~/tmp_gitdir; fi
-```
-Before workflow, we'll use `git init` to set up a repository.
-
-```{bash, git-init }
-# make a directory (tmp_gitdir is "git repository")
-mkdir ~/tmp_gitdir
-# move into directory
-cd ~/tmp_gitdir
-# initialize repository
-git init
-```
-
-```{bash, show-gitfile, highlight.output=4}
-# see what it did
-ls -lha ~/tmp_gitdir
-```
-
-???
-
-All the information about a repository is stored in this `.git` directory. 
-Don't ask me how. It's just magic, as far as I can tell.
-
----
-
-
 ### Basic git workflow
 
 * Make modifications to files. Save files.
@@ -466,7 +380,7 @@ A shortcut to create and checkout a branch is `git checkout -b devel`
 
 On the `devel` branch, we can modify files in the repository.
 
-```{bash, modify-files }
+```{bash, modify-files, eval=FALSE}
 # add a line to README and commit
 echo "Some cool new info for the README!" >> README.md
 git add README.md 
