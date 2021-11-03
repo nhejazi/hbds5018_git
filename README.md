@@ -1,4 +1,4 @@
-# Getting `Git` Good
+# Getting `Git` Good for [HBDS 5018](https://phs.weill.cornell.edu/graduate-education-clinical-training/course-catalog/data-science-i-r-and-python)
 
 Version control (a lá [`git`](https://git-scm.com/)) has been standard practice
 in software engineering for decades, and its use has started to become expected
