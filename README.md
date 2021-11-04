@@ -24,7 +24,7 @@ version control tools alongside collaborative programming platforms like
 
 n.b., These are _opinionated_ takes of mine, and many may disagree with them. As
 you learn more about version control best practices, you may find alternative
-frameworks/guidance that better suite your, and your team's, work style.
+guidance that better suit your, and your team's, work style.
 
 ---
 
@@ -35,7 +35,8 @@ frameworks/guidance that better suite your, and your team's, work style.
 * ["Happy `git` and GitHub for the useR" (Jenny Bryan,
     RStudio)](http://happygitwithr.com/)
 * ["Version Control with `git` and
-    GitHub"](http://kbroman.org/Tools4RR/assets/lectures/04_git.pdf)
+    GitHub" (UW-Madison's _BMI 826_, Spring 2016, Karl
+    Broman)](http://kbroman.org/Tools4RR/assets/lectures/04_git.pdf)
 * ["Introduction to `git`" (Berkeley's _Stat 159/259_, Fall 2015, Jarrod
     Millman)](http://www.jarrodmillman.com/rcsds/standard/git-intro.html)
 * ["Version control using git and
