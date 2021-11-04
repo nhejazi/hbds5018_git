@@ -35,21 +35,13 @@ problems that may arise when working with `git`. These range the spectrum from
 applied to fairly technical:
 
 * ["Version Control with `git`" (Software
-    Carpentry)](https://swcarpentry.github.io/git-novice/) - a comprehensive
-    introduction to the uses of `git` and social coding with GitHub. This is
-    aimed towards students and research professionals.
+    Carpentry)](https://swcarpentry.github.io/git-novice/)
 * ["Happy `git` and GitHub for the useR" (Jenny Bryan,
-    RStudio)](http://happygitwithr.com/) - a comprehensive introduction to both
-    the inner workings of `git` and best practices in using GitHub, with a focus
-    on integrating these tools into your R workflow -- aimed towards
-    masters-level university students.
-* ["Tools for Reproducible Research" (Karl
-    Broman)](http://kbroman.org/Tools4RR/) - a University-level course on best
-    practices in modern reproducible research, which includes a couple of
-    lectures on `git` and GitHub.
-    * ["Version Control with `git` and
-        GitHub"](http://kbroman.org/Tools4RR/assets/lectures/04_git.pdf)
-* ["Introduction to `git`" (Berkeley's Stat 159/259, Fall 2015, KJ
-    Millman)](http://www.jarrodmillman.com/rcsds/standard/git-intro.html) - a
-    thorough walkthrough of some common `git` commands as well as explanations
-    of what these commands do when invoked.
+    RStudio)](http://happygitwithr.com/)
+* ["Version Control with `git` and
+    GitHub"](http://kbroman.org/Tools4RR/assets/lectures/04_git.pdf)
+* ["Introduction to `git`" (Berkeley's Stat 159/259, Fall 2015, Jarrod
+    Millman)](http://www.jarrodmillman.com/rcsds/standard/git-intro.html)
+* ["Version control using git and
+  GitHub" Emory's Info 550, Fall 2021, David
+  Benkeser](https://benkeser.github.io/info550/lectures/)
